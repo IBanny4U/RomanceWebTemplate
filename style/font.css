@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'LoveLetter';
+  src: url('fonts/LoveLetter.ttf') format('truetype');
+}
+
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px #e63946;
+  }
+  to {
+    box-shadow: 0 0 25px #bf4be2;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

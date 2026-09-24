@@ -35,7 +35,7 @@ submitAnswer.addEventListener("click", function () {
     if (answer === "အာဘွား") {
 
         // Go to next page
-        window.location.href = "index.html";
+        window.location.href = "loveletter.html";
 
     } else {
 

@@ -3,55 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RomanceWebTemplate</title>
-    <link rel="stylesheet" href="style/index.css">
-    <link rel="stylesheet" href="style/font.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-
-    
+    <title>Cover</title>
+    <link rel="stylesheet" href="/style/index.css">
+    <script src="/style/index.js" defer></script>
 </head>
 <body>
-       <h2 id="body_title">Happy Anniversary</h2>
+    
+
+<!-- =========================
+         LOVE LINK COVER PAGE
+    ========================== -->
+
+    <main class="cover_page">
+
+        <!-- LoveLink Logo -->
+        <header class="logo">
+            <h1>LoveLink <span>♡</span></h1>
+            <p>Small moments · Big love</p>
+        </header>
 
 
-        <div class="love-letter">
-                <div id="letter-content">
-                       <!-- Inner line Frame -->
-                    <span class="corner top-left"></span>
-                    <span class="corner top-right"></span>
-                   
+        <!-- Character -->
+        <section class="character-section">
+
+            <img
+                id="character"
+                src="/lib/img/TransparentCha/NormalTranCat.png"
+                alt="LoveLink character"
+            >
+
+        </section>
+
+
+        <!-- Question -->
+        <section class="question-section">
+
+            <h2 id="question">
+                Do you love me? ❤️
+            </h2>
+
+            <!-- Buttons -->
+            <div class="answer-buttons">
+
+                <button
+                    id="yesButton"
+                    class="answer-button yes-button"
+                    type="button"
+                >
+                    ❤️ Yes, I Do
+                </button>
+
+                <button
+                    id="noButton"
+                    class="answer-button no-button"
+                    type="button"
+                >
+                    💔 No, I Don't
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <div id="love-input" class="love-input">
+    <h2>အာဘွား လို့ ရိုက်ပေးပါ ❤️</h2>
+
+    <input
+        type="text"
+        id="loveAnswer"
+        placeholder="ဒီမှာ ရိုက်ပါ..."
+    >
+
+    <button id="submitAnswer" type="button">
+        💕 Continue
+    </button>
+
+    <p id="inputMessage"></p>
+    </div>
+
+
+    </main>
 
 
 
-                    <div id="proposal">
-                         <h2 style="font-family: 'LoveLetter', cursive;">To my dearest Name </h2>
 
-        <p style="font-family: 'LoveLetter', cursive;" >
-            Happy  Anniversary!
-        </p>
 
-        <p style="font-family: 'LoveLetter', cursive;" >
-           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero velit officia inventore
-            perspiciatis omnis magni ratione, repellendus natus
-            fugiat facilis non quod, voluptatibus nam ipsa reprehenderit ea sunt cupiditate praesentium!
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero velit officia inventore
-            perspiciatis omnis magni ratione, repellendus natus
-            fugiat facilis non quod, voluptatibus nam ipsa reprehenderit ea sunt cupiditate praesentium
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero velit officia inventore
-            perspiciatis omnis magni ratione, repellendus natus
-            fugiat facilis non quod, voluptatibus nam ipsa reprehenderit ea sunt cupiditate praesentium!
-        </p>
-
-        <p class="signature" style="font-family: 'LoveLetter', cursive;">
-            With love,<br >
-            Name ❤️
-                    </div>
-       
-
-                </div>
-       
-        </div>
 
 
 

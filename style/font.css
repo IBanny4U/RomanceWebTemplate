@@ -3,7 +3,7 @@
   src: url('fonts/LoveLetter.ttf') format('truetype');
 }
 
-
+/*BOX Border Glow*/
 @keyframes glow {
   from {
     box-shadow: 0 0 10px #e63946;
@@ -13,6 +13,8 @@
   }
 }
 
+
+/*Test Fade in in loveLetter*/
 @keyframes fadeInUp {
   from {
     opacity: 0;
